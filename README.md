@@ -36,4 +36,4 @@ output = "wolf.fastq"
 wolf = obt.exec_run(tty=True, workdir='/data', cmd=f'illuminapairedend --score-min={score_min} -r {reads_r} {reads_f} > {output}')
 ```
 
-The result would be found in `/home/romunov/wolfdata`.
+The result would be found in `/home/romunov/wolfdata`. See the [vignette Python notebook](vignette_wolf_data.ipynb) for the full workflow.
